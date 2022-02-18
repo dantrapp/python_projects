@@ -20,5 +20,5 @@ for n in range(1, num+1):
     #print(n, "is odd")
 
 print(f"There are {count} even numbers between 1 and {num}")
-print(f"Now we have a seperate list of even numbers {even_list}")
+print(f"Now we have a separate list of even numbers {even_list}")
 #print(len(even_list)) #uncomment if you'd rather use this instead of count var
