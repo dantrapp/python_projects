@@ -24,6 +24,6 @@ for n in range(1, 101):
   else:
     print(f"{n}")
 
-print(f"There are {fizz} instances of Fizz \n{buzz} instances of Buzz\nand {fizzbuzz} instances of FizzBuzz in the number 100 ")
+print(f"There are {fizz} instances of Fizz \n{buzz} instances of Buzz\nand {fizzbuzz} instances of FizzBuzz in the numbers 1 through 100 ")
 
   
