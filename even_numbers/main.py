@@ -1,12 +1,3 @@
-#fun with range()
-
-
-for n in range(1, 10):
-  print(n)
-
-for n in range(1, 10, 2): #print by 2's using the [step] in range
-  print(n)
-
 #Even Numbers
 '''
 user inputs a number. Using a for loop and range, find all of the even numbers up to the number user inputted.
