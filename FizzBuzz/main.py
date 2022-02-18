@@ -12,15 +12,16 @@ buzz = 0
 fizzbuzz = 0
 
 for n in range(1, 101):
-  if n % 3 == 0:
-    fizz += 1
-    print("Fizz!")
-  if n % 5 == 0 and n % 3 != 0:
-    buzz += 1
-    print("Buzz!")
   if n % 3 == 0 and n % 5 == 0:
     fizzbuzz += 1
     print("FizzBuzz!")
+  elif n % 3 == 0:
+    fizz += 1
+    print("Fizz!")
+  elif n % 5 == 0 and n % 3 != 0:
+    buzz += 1
+    print("Buzz!")
+
   else:
     print(f"{n}")
 
