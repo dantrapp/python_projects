@@ -23,6 +23,6 @@ nu = [numbers[num[0]], numbers[num[1]], numbers[num[2]], numbers[num[3]]]
 
 p = (sy + al + nu)
 
-random.shuffle(p)
+random.shuffle(p) #shuffle the password
 
 print("Your Password:", "".join(map(str, p))) 
