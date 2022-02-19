@@ -56,7 +56,7 @@ def facts(x):
     counter += 1 #increment the counter
     letter_count += len(i) #add number letters of each word to letter_count
     letter_list += i #add all of the letters to a list for use in occurrence
-    if word_count < len(i): #if 0 is less than the current word...
+    if word_count < len(i): #if 0 is less than the current word.
       word_count = len(i) #...add the length of the word to word_count
       longest_word = i # then add the current word to longest_word, until the longest word can either be replaced, or no other word is longer.
 
