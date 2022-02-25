@@ -20,14 +20,14 @@ def convert():
     for i in sentenceList:
         code.append(alpha.index(i))
 
-# shift numbers back x
+# shift numbers back x; add to list codeMinusShift
 
 
 def convert2(x):
     for i in sentenceList:
         codeMinusShift.append(alpha.index(i) - x)
 
-# convert shuffled letter list back to alpha and print the code.
+# convert shuffled letter list back to alpha; add to list finalCode; print cypher
 
 
 def createCode():
