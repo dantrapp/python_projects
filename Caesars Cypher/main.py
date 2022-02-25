@@ -19,8 +19,8 @@ code = []  # sentence converted to numbers
 codeMinusShift = []  # sentence numbers shuffled
 finalCode = []  # shuffled sentence numbers converted to alpha
 cypher = ""  # final code in string form
-decode = []
-decoded = ""
+decode = []  # sentence decoded to list form
+decoded = ""  # sentence decoded to string form
 
 # convert sentence to index numbers; add to list var (code)
 
