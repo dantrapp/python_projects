@@ -37,8 +37,8 @@ def convert2(x):
 
 
 def createCode():
-    convert()  # convert sentence to numbers
-    convert2(shift)  # shift numbers back x
+    convert()  # convert sentence to numbers function
+    convert2(shift)  # shift numbers back x function
     for i in codeMinusShift:
         finalCode.append(alpha[i])
     print(f"This is The Secret Code: {cypher.join(finalCode)}")
