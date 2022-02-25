@@ -60,8 +60,6 @@ createCode()
 decodeCypher = int(
     input("Would you like to decode the cypher?: Type '0' for Yes or '1' for No: "))
 
-# convert the code to alpha
-
 
 def decoder():
     for i in code:
