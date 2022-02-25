@@ -7,10 +7,14 @@ alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
 
 # string input to lower
 sentence = input("Type a sentence to encode: ").lower()
-stripSentenceSpaces = "".join(sentence.split())  # strip whitespace + join
+# strip whitespace + join
+stripSentenceSpaces = "".join(sentence.split())
+# convert sentence to list
 sentenceList = list(stripSentenceSpaces)
 # input how many numbers to shift the sentence back
 shift = int(input("Pick a number to scramble the code:"))
+
+# necessary vars
 code = []  # sentence converted to numbers
 codeMinusShift = []  # sentence numbers shuffled
 finalCode = []  # shuffled sentence numbers converted to alpha
