@@ -21,14 +21,14 @@ def convert():
     for i in sentenceList:
         code.append(alpha.index(i))
 
-# test to see if you can go back 9 indexes
+# shift numbers back x
 
 
 def convert2(x):
     for i in sentenceList:
         codeMinusShift.append(alpha.index(i) - x)
 
-# convert back to letters for final code
+# convert shuffled letter list back to alpha and print the code.
 
 
 def createCode():
