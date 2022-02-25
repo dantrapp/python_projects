@@ -9,11 +9,10 @@ sentence = input("Type a sentence to encode: ").lower()
 stripSentenceSpaces = "".join(sentence.split())
 sentenceList = list(stripSentenceSpaces)
 shift = int(input("Pick a number to scramble the code:"))
-code = []
-codeMinusShift = []
-convertCode = []
-finalCode = []
-cypher = ""
+code = []  # sentence converted to numbers
+codeMinusShift = []  # sentence numbers shuffled
+finalCode = []  # shuffled sentence numbers converted to alpha
+cypher = ""  # final code in string form
 
 
 # convert sentence to index numbers; add to list var (code)
