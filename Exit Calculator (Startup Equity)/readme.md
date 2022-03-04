@@ -1,0 +1,3 @@
+Calculate your equity and potential profit from a sale based on the market cap of the company. 
+
+Example: Owning 5% equity in an $8b market cap company would be worth $400m and selling 5% of your holdings would gross $20m pre-tax, and based on whether you purchased your shares a year in advance, the net would be $13m (35% tax) vs. $9.8m (51% tax); and with moderate-to-low risk investment strategies, would project an annualized rate of return of of $910k on $13m, with a net of $728k at 7% interest. 
